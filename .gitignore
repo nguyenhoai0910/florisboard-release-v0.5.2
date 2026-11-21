@@ -61,3 +61,13 @@ debug/
 target/
 **/*.rs.bk
 *.pdb
+
+# Release signing (never commit)
+keystore.properties
+*.keystore
+*.jks
+
+# Local temp files
+*.bak
+*.bak2
+versions-init.gradle
